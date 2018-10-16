@@ -1,6 +1,6 @@
 {
     "name": "game-cats",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "吸猫日记专属工具",
     "author": "Cocos Creator",
     "main": "main.js",
