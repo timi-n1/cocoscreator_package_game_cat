@@ -1,0 +1,51 @@
+{
+    "name": "game-cats",
+    "version": "0.0.1",
+    "description": "吸猫日记专属工具",
+    "author": "Cocos Creator",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/Game吸猫日记专属/猫咪动作Spine/Spine工程批处理": {
+            "message": "game-cats:spine_maker"
+        },
+        "Packages/Game吸猫日记专属/猫咪动作Spine/Spine资源批处理": {
+            "message": "game-cats:spine_texture_maker"
+        },
+        "Packages/Game吸猫日记专属/家具素材/批处理": {
+            "message": "game-cats:furniture_texture_maker"
+        },
+        "Packages/Game吸猫日记专属/猫图鉴素材/批处理": {
+            "message": "game-cats:cats_category_maker"
+        },
+        "Packages/Game吸猫日记专属/玩具素材/批处理": {
+            "message": "game-cats:toys_texture_maker"
+        },
+        "Packages/Game吸猫日记专属/猫粮素材/批处理": {
+            "message": "game-cats:food_texture_maker"
+        },
+        "Packages/Game吸猫日记专属/配置导出/xlsx": {
+            "message": "game-cats:config_xlsx"
+        },
+        "Packages/Game吸猫日记专属/配置导出/家具位置": {
+            "message": "game-cats:config_furniture_position"
+        },
+        "Packages/Game吸猫日记专属/配置导出/猫咪位置": {
+            "message": "game-cats:config_cats_position"
+        },
+        "Packages/Game吸猫日记专属/配置导出/玩具位置": {
+            "message": "game-cats:config_toys_position"
+        }
+    },
+    "dependencies": {
+        "async": "^2.6.1",
+        "excel": "^1.0.0",
+        "fs-extra": "^5.0.0",
+        "glob": "^7.1.2",
+        "image-size": "^0.6.3",
+        "jimp": "^0.2.28",
+        "json-format": "^1.0.1",
+        "request": "^2.85.0",
+        "resize-img": "^1.1.2",
+        "tar": "^4.4.0"
+    }
+}
